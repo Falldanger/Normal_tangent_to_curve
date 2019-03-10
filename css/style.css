@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    justify-content: left;
+    align-items: center;
+    background-color: #DCDCDC;
+}
+
+.nazva{
+    width: 15%;
+    text-align: center;
+}
+
+.btn{
+    width: 10%;
+}
+
+button{
+    cursor: pointer;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #228B22;
+    outline: none;
+    color: #fff;
+}
+
+.rozmiry{
+    width: 40%;
+}
+
+ul.up{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+}
+ul.up>li{
+    list-style-type: none;
+}
+ul.nonpoint>li{
+    list-style-type: none;
+}
+
+input{
+    width: 50px;
+    border-radius: 20%;
+    outline: none;
+}
+
+
+.buttons{
+    width: 8%;
+    margin-left: 50px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_detail{
+    width: 220px;
+    height: 220px;
+    margin-top: 0;
+}
+.posit{
+    position: absolute;
+    display: inline-block;
+    margin-top: 40px;
+    right: 50px;
+}
+.posit1{
+    margin-top: 260px;
+    left: 995px;
+}
+.posit2{
+    position: absolute;
+    display: inline-block;
+    margin-top: 15px;
+    right: 95px;
+}
+
+
+
+#button{
+    width: 150px;
+    background: #228B22;
+    border-radius: 6px;
+    color: white;
+    height: 50px;
+    font-size: 18px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Laba2</title>
+</head>
+<body>
+    <nav>
+        <div class="btn">
+            <button id="button">Draw</button>
+        </div>
+        <div class="buttons">
+            <label for="sitka">Grid</label>
+            <input type="checkbox" id="sitka" name="check" checked> 
+        </div>
+        <div class="rozmiry">
+            <ul class="up">
+                <li>
+                <span>R = </span>                    
+                    <input type="number" id="A" value="50"  placeholder="A">
+                </li>
+                <li>
+                <span>X = </span>
+                    <input type="number" id="X" value="25" placeholder="X">
+                </li>
+                <li>
+                <span>Y = </span>
+                    <input type="number" id="Y" value="42" placeholder="Y">
+                </li>
+            </ul>
+        </div>
+        <div class="btn">
+            <button id="normal">Normal & Tangent</button>
+        </div>
+    </nav>
+    <div style="margin-left: 5px;">
+        <canvas id="myCanvas" width="1000" height="600" style="border:1px solid #000;"></canvas>
+        <div class="posit2">
+       		<span><b>Deltoid (Steiner Curve):</b></span>
+        </div>
+        <div class="posit"><img class="img_detail" src="img/laba2.jpg" alt=""></div>
+        <div class=" posit posit1"><ul class="nonpoint">
+        	<li><span><b>Equation in a rectangular coordinate system:</b></span><p>(Х<sup><small>2</small></sup>+Y<sup><small>2</small></sup>)<sup><small>2</small></sup>+18(X<sup><small>2</small></sup>+Y<sup><small>2</small></sup>) = 8X<sup><small>3</small></sup> -24Y<sup><small>2</small></sup>X+27</p></li>
+
+        	<li>
+        	<span><b>Equation in parametric form:</b></span>
+        	<p>X = 2Rcos(t) + Rcos(2t)</p>
+        	<p>X = 2Rsin(t) - Rsin(2t)</p>
+        	</li>
+        </ul></div>
+   </div>
+
+</body>
+</html>
